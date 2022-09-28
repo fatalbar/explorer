@@ -19,7 +19,7 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://ping.pub/logo.svg',
+      icon: 'https://raw.githubusercontent.com/fatalbar/fatalbar/main/Meowbored.ico',
     })
   }
   chainMenus.push({ header: 'LINKS' })
@@ -38,7 +38,7 @@ function processMenu() {
   }
   chainMenus.push({
     title: 'Github',
-    href: 'https://github.com/ping-pub/explorer',
+    href: 'https://github.com/fatalbar',
     icon: 'GithubIcon',
   })
   chainMenus.push({
@@ -48,12 +48,12 @@ function processMenu() {
   })
   chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/ping_pub',
+    href: 'https://twitter.com/fataalbar24',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
     title: 'Telegram',
-    href: 'https://t.me/pingpub',
+    href: 'https://t.me/fatalbar',
     icon: 'SendIcon',
   })
 
